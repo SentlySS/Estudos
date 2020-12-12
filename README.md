@@ -8,4 +8,4 @@ Eu não farei todos os desafios dos sites que eu encontrar, mas farei aqueles qu
 # Desafios propostos
 | Fonte  | Status | Desafios Feitos  | Nivel  |
 |-------|-------------------------|------------------|--------|
-| [Js for beginners](https://jsbeginners.com/javascript-projects-for-beginners/) | Em andamento  | 1 feito | Iniciante |
+| [Js for beginners](https://jsbeginners.com/javascript-projects-for-beginners/) | Em andamento  | 2 feitos | Iniciante |
