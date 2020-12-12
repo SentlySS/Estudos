@@ -7,4 +7,4 @@ O objetivo do repositório é postar todos os desafios que conclui enquanto esto
 # Desafios em andamento
 | Site  |  Quantidade de desafios | Desafios Feitos  | Nivel  |
 |-------|-------------------------|------------------|--------|
-| [Js for beginners](https://jsbeginners.com/javascript-projects-for-beginners/) | 100 desafios  | 0 feitos | Iniciante |
+| [Js for beginners](https://jsbeginners.com/javascript-projects-for-beginners/) | 100 desafios  | 1 feito | Iniciante |
