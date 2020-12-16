@@ -1,4 +1,3 @@
 # Change Quote
-## Resultados do projeto
-
-![](./start.jpg) ![](./end.jpg)
+## Sobre o projeto
+É um simples projeto que adiciona +1 ou diminui -1 dependendo em qual botão você clique.
