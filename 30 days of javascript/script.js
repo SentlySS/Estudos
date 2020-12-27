@@ -43,3 +43,23 @@ let cat = 'Maju';
 
 // Exercise 8
 
+let firstname = 'Daniel';
+let lastName = 'Passos';
+let maritalState = 'Single';
+let country = 'Brazil';
+let age = 20;
+
+// Exercise 9
+
+let first = 'Daniel',
+    last = 'Passos',
+    maritalState1 = 'Single',
+    country1= 'Brazil',
+    age1 = 20;
+
+// Exercise 10
+
+let myAge = 20;
+let yourAge = 25;
+
+console.log(`I'm ${myAge} old and you are ${yourAge} old`);
