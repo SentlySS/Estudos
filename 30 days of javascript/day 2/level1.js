@@ -75,5 +75,3 @@ console.log(c1.concat('Javascript'));
 
 //25
 console.log(challenge.repeat(2));
-
-//Exercise level 2
