@@ -42,3 +42,58 @@ let x2 = 6, x1 = 10;
 let slope = (y2-y1)/(x2-x1);
 
 //7
+console.log(yIntercept > slope)
+
+//8
+let x = -3;
+let y = x^2 + 6*x + 9;
+console.log(y)
+
+//9
+let rateHour = prompt('Insira a taxa por hora');
+let hours2 = prompt('Insira as horas que quer contar');
+let calculus = rateHour * hours2;
+alert(`Você ganha ${calculus}`);
+
+//10
+let name1 = prompt('Insira seu nome para verificar a largura');
+let nameLength = name1.length;
+nameLength > 7 ? 'Seu nome é longo' : 'Seu nome é curto';
+
+//11
+let firstName3 = 'Asabeneh';
+let lastName3 = 'Yetayeh';
+
+firstName3.length > lastName3.length ? 'Seu primeiro nome é maior que o da familia' : 'Seu nome de familia é maior que seu nome';
+
+//12
+let myAge3 = 250;
+let yourAge3 = 25;
+
+let oldest1 = myAge3 - yourAge3;
+let oldest2 = yourAge3 - myAge3;
+
+myAge3 > yourAge3 ? `Eu sou ${oldest1} anos mais velho que você` : `Eu sou ${oldest2} anos mais novo que você`;
+
+//13
+const newYear = new Date();
+const actualYear = newYear.getFullYear();
+let born = prompt('Insira o ano que nasceu no formato 2000');
+const verify1 = actualYear - born;
+
+verify1 >= 18 ? `You are ${verify1}. You are old enough to drive.`: `You are ${verify1}. You will be allowed to drive after 3 years.`;
+
+//14
+const actualYear2 = prompt('Insira quantos anos você viveu');
+const sec = actualYear2 * 31536000;
+console.log(`Você viveu ${sec} segundos`);
+
+//15
+const nowdate = new Date();
+const nowYear = nowdate.getFullYear();
+const nowMonth = nowdate.getMonth();
+const nowDay = nowdate.getDate();
+
+console.log(`${nowYear}-${nowMonth}-${nowDay}`);
+console.log(`${nowDay}-${nowMonth}-${nowYear}`);
+console.log(`${nowDay}/${nowMonth}/${nowYear}`);
