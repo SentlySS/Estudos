@@ -10,4 +10,4 @@ As maratonas eu completarei completamente.
 | Fonte  |
 |-------|
 | [Js for beginners](https://jsbeginners.com/javascript-projects-for-beginners/) |
-| [30days of Javascript](https://github.com/Asabeneh/30-Days-Of-JavaScript) |
+| [30 days of Javascript](https://github.com/Asabeneh/30-Days-Of-JavaScript) |
