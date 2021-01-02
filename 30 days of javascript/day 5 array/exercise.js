@@ -1,29 +1,5 @@
 // Exercise Level 1
 
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya'
-]
-
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
-
 // 1. Declare an empty array;
 
 const empty = Array();
@@ -134,3 +110,37 @@ console.log(itCompanies.unshift(6));
 
 console.log(itCompanies.slice(7));
 
+// Exercise level 2
+
+// 2. First remove all the punctuations and change the string to array and count the number of words in the array
+let text =
+'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+let words = text.replace(/,/g,'');
+let arraywords = words.split(' ');
+console.log(arraywords)
+console.log(arraywords.length)
+
+// 3. In the following shopping cart add, remove, edit items
+
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+const alergic = true;
+if(!shoppingCart.includes('Meat')){
+  shoppingCart.unshift('Meat');
+}
+if(!shoppingCart.includes('Sugar')){
+  shoppingCart.push('Sugar');
+}
+if(alergic == true){
+  const honey = 'Honey';
+  shoppingCart.splice(shoppingCart.indexOf(honey), 1);
+}
+console.log(shoppingCart);
+
+
+// 6. Concatenate the following two variables and store it in a fullStack variable.
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+const fullStack = frontEnd.concat(backEnd);
+console.log(fullStack)
