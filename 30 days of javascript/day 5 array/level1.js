@@ -86,4 +86,51 @@ if(itCompanies.includes(index)){
   console.log("Company is not found")
 }
 
-// 14.
+// 14. Filter out companies which have more than one 'o' without the filter method
+
+let filtro = [];
+if(itCompanies.map(p => p.includes('oo'))){
+  filtro.push(itCompanies.map(p => p.includes('oo')));
+  console.log(filtro);
+} else {
+  console.log("Doesn't has companies");
+}
+
+// 15. Sort the array using sort() method
+
+itCompanies.sort();
+
+// 16. Reverse the array using reverse() method
+
+itCompanies.reverse();
+
+// 17. Slice out the first 3 companies from the array
+
+let first3 = itCompanies.slice(3);
+console.log(itCompanies);
+console.log(first3);
+
+// 18. Slice out the last 3 companies from the array
+
+let last3 = itCompanies.slice(0,4);
+console.log(last3);
+
+// 19. Slice out the middle IT company or companies from the array
+
+console.log(itCompanies.slice(3,4));
+
+// 20. Remove the first IT company from the array
+
+console.log(itCompanies.slice(1));
+
+// 21. Remove the middle IT company or companies from the array
+
+console.log(itCompanies.splice(3,1));
+
+// 22. Remove the last IT company from the array
+console.log(itCompanies.unshift(6));
+
+// 23. Remove all IT companies
+
+console.log(itCompanies.slice(7));
+
