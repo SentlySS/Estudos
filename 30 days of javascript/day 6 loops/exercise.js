@@ -112,7 +112,7 @@ console.log(array2)
 let randomUnique = [];
 for(i=0; i < 5; i++){
   number1 = Math.floor(Math.random() * (max - min + 1) + min);
-  if (randomUniqueArr.indexOf(number1) === -1) {
+  if (randomUnique.indexOf(number1) === -1) {
     randomUnique.push(number1);
   } else {
     randomUnique.push(number1);
@@ -123,9 +123,8 @@ for(i=0; i < 5; i++){
 
 let ticket = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
 let randomTicket = ""
-for (let i = 0; i <= 5; i++) {
+for (i = 0; i <= 5; i++) {
     let random = Math.floor(Math.random() * ticket.length);
     randomTicket += ticket[random];
 }
 console.log(randomTicket);
-
