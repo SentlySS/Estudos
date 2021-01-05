@@ -29,4 +29,3 @@ dog.getDogInfo = function(){
 dog.getDogInfo = function(){
   return `o nome do cachorro é ${this.name}, tem ${this.legs} patas, sua cor é ${this.color} e sua idade é ${this.age}`;
 };
-
