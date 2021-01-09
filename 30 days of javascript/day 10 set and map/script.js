@@ -23,3 +23,17 @@ const strings = new Set(five);
 const countries = [['Brasil', 6], ['Argentina', 9], ['França', 6]];
 const countriesLength = new Map(countries);
 
+// Exercise level 2
+
+// 1. Find a union b
+
+const a = [4, 5, 8, 9];
+const b = [3, 4, 5, 7];
+const c = [...a,...b];
+
+let A = new Set(a);
+let B = new Set(b);
+let C = new Set(c);
+
+// 2. Find a intersection b
+let d = a.filter(num => b.has(num));
