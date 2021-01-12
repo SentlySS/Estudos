@@ -29,4 +29,11 @@ console.group('countries2');
 console.log(countries2);
 console.groupEnd();
 
-// 4. 
+// 4. 10 > 2 * 10 use console.assert()
+console.assert( 10 > 2 * 10, '10 is not greater than 2 * 10');
+
+// 5. Write a warning message using console.warn()
+console.warn('Aviso, você foi avisado');
+
+// 6. Write an error message using console.error()
+console.error('Erro, isso é um erro');
