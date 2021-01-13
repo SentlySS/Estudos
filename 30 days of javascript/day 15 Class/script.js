@@ -28,3 +28,15 @@ class Cat extends Animal{
   }
 }
 
+// 3. Override the method you create in Animal class
+
+class Bird extends Animal {
+  constructor(name, age, color, legs, gender){
+    super(name, age, color, legs)
+    this.gender = gender;
+  }
+  birdMethod(){
+    console.log(`${this.name} is ${this.gender}`)
+  }
+}
+
