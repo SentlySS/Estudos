@@ -12,13 +12,11 @@ fetch(url)
     try {
       const response = await fetch(url)
       const countries = await response.json()
-      console.log(countries.country)
-      console.log(countries.capital)
-      console.log(countries.languages)
-      console.log(countries.population)
-      console.log(countries.area)
+      countries.forEach(element => {
+          console.log(`Name: ${element.name}, capital: ${element.capital}, languages: ${element.languages[0].name}, population: ${element.population}, area: ${element.area}`)
+      });
     } catch (err) {
       console.log(err)
     }
   }
-  fetchData()
+fetchData()
