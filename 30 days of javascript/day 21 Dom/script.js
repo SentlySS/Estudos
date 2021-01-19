@@ -29,4 +29,3 @@ for(i = 0; i <= AllP.length; i++){
     AllP[i].id = 'new';
     AllP[i].className = 'new';
 };
-
