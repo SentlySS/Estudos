@@ -1,0 +1,25 @@
+body{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.head-container{
+  text-align: center;
+}
+
+.wrapper{
+  max-width: 960px;
+}
+
+.wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper ul li{
+  display: block;
+  min-width: 170px;
+  margin: 10px;
+  flex: 1 1 170px;
+  color: white;
+  text-align: center;
+}
