@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Object Model:30 Days Of JavaScript</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+      p {
+        padding: 20px 40px;
+        color: black;
+        font-size: 25px;
+        text-align: center;
+      }
+
+      .code{
+        padding: 20px 20px;
+        text-align: center;
+        font-size: 25px;
+      }
+    </style>
+    <div class="container">
+      <p>Key events: Press any key</p>
+      <div class="code"></div>
+    </div>
+    <script>
+      const p = document.querySelector('p');
+      const code = document.querySelector('.code');
+      document.body.addEventListener('keypress', e => {
+        code.textContent = e.keyCode
+        p.textContent = 'Você pressionou a tecla com código: '
+        code.style.color = 'green'
+      })
+    </script>
+  </body>
+</html>
