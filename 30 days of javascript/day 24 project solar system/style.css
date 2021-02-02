@@ -28,8 +28,18 @@ button{
 
 .container{
   display: flex;
-  margin-left:auto;
-  margin-right: auto;
+  max-width: 960px;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container img{
+  max-width: 400px;
+}
+
+.container p{
+  text-align: center;
 }
 .big{
   font-size: 50px;
