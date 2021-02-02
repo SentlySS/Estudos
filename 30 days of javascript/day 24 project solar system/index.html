@@ -10,41 +10,32 @@
 <body>
     <header>
         <h1>Calculate a weight of an object on a planet</h1>
-
-        <input type="number" id="mass" placeholder="Mass in Kilogram" />
+        <input type="number" placeholder="Mass in Kilogram" />
         <select id="select">
             <option value='none'>--select planet-- </option>
-            <option value='1'>EARTH </option>
-            <option value='2'>PLUTO</option>
-            <option value='3'>NEPTURNE </option>
-            <option value='4'>MARS </option>
-            <option value='5'>URANUS </option>
-            <option value='6'>SATURN </option>
-            <option value='7'>MERCURY </option>
-            <option value='8'>VENUS </option>
-            <option value='9'>MOON </option>
-            <option value='10'>Jupiter </option>
+            <option value='earth'>EARTH </option>
+            <option value='nepturne'>NEPTURNE </option>
+            <option value='mars'>MARS </option>
+            <option value='uranus'>URANUS </option>
+            <option value='saturn'>SATURN </option>
+            <option value='mercury'>MERCURY </option>
+            <option value='venus'>VENUS </option>
+            <option value='jupiter'>Jupiter </option>
         </select>
         <button>Calculate weight</button>
 
     </header>
-    <main>
         <div class="flex-container">
             <div class="flex-item image">
                 <img src='./images/earth.png' class="planet-image" />
             </div>
             <div class="flex-item description"></div>
-
         </div>
 
+        <div class="container container-border">
 
-    </main>
-
-
-
-
-
-    <script src="./script.js"></script>
+        </div>
+    <script defer src="./script.js"></script>
 </body>
 
 </html>
