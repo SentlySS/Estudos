@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contador</title>
+    <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  </head>
+
+  <body>
+    <div id="app-react"></div>
+    <script type="text/babel">
+      const Comprar = () => {
+        const [contador, setContador] = React.useState(1);
+        return (
+          <div>
+            <p>Total: {contador}</p>
+            <p>Preço: R$ {contador * 250}</p>
+            <button onClick={() => setContador(contador + 1)}>Comprar</button>
+          </div>
+        )
+      };
+      ReactDOM.render(<Comprar />, document.getElementById('app-react'));
+    </script>
+  </body>
+</html>

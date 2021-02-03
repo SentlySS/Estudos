@@ -1,0 +1,5 @@
+// Create React app
+npx create-react-app react-tutorial
+
+// Iniciar repo
+cd react-tutorial && npm start
