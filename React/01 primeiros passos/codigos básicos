@@ -7,3 +7,9 @@ cd react-tutorial && npm start
 //Webpacks
 npm install webpack webpack-cli webpack-de
 v-server --save-dev
+
+// Instalar Babel
+npm install @babel/core @babel/preset-react babel-loader --save-dev
+
+// Css Loader
+npm install style-loader css-loader --save-dev
