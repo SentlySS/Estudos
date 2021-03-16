@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Produtos.module.css'
+import Head from './Head'
 
 const Produtos = () => {
   const [produtos, setProdutos] = React.useState(null);
